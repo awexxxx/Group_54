@@ -4,28 +4,13 @@ This repository contains the IoT part of the larger project, focusing on object 
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [File Descriptions](#file-descriptions)
-- [Usage](#usage)
-- [GUI Visualization](#gui-visualization)
-- [Training Your Model](#training-your-model)
-- [Detection](#detection)
-- [Contributing](#contributing)
-- [License](#license)
+- [IoT Object Detection System](#iot-object-detection-system)
+  - [Table of Contents](#table-of-contents)
+  - [File Descriptions](#file-descriptions)
+    - [GUI Visualization](#gui-visualization)
+    - [Training Your Model](#training-your-model)
+    - [Detection](#detection)
 
-## Installation
-
-Before you begin, ensure you have met the following requirements:
-- You have installed Python 3.x
-- You have a Windows/Linux/Mac machine.
-
-To install the project, you need to clone the repository and install the dependencies:
-
-```bash
-git clone https://github.com/awexxxx/Group_54.git
-cd Group_54/IOT/
-pip install -r requirements.txt  # You need to create this file based on your project's external libraries.
-```
 
 ## File Descriptions
 
@@ -34,7 +19,6 @@ pip install -r requirements.txt  # You need to create this file based on your pr
 - `detect_video.py`: Similar to `detect_pic.py`, but this script is for video streams.
 - `train.py`: This script is used for training a YOLO model with custom data.
 
-## Usage
 
 ### GUI Visualization
 
